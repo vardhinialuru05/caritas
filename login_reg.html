@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="assets/css/login_reg.css">
+
+	<!-- Font -->
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="icon" href="assets/favicon.ico">
+
+	<title>Login Registration</title>
+</head>
+
+<body>
+	<!-- <div>
+		<img src="assets/images/login_reg/donate.jpg" class="hero"> -->
+
+	<!-- Navigation Bar -->
+	<header>
+		<nav class="main-navigation">
+			<a href="index.html"><img class="logo" src="assets/logoWithName.png" alt=""></a>
+			<ul>
+				<li><a href="index.html">About Us</a></li>
+				<li><a href="start- a-project.html">Start a Project</a></li>
+				<li><a href="education.html">Donate</a></li>
+				<li><a href="covid_19.html">COVID 19</a></li>
+			</ul>
+		</nav>
+		<hr>
+	</header>
+	<!-- Navigation Bar -->
+
+	<main>
+
+		<div class="form-box">
+
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+				<button type="button" class="toggle-btn" onclick="register()">Register</button>
+			</div>
+
+			<div class="social-icons">
+				<a href="https://www.facebook.com/"><img src="assets/images/login_reg/fb.png"></a>
+				<a href="https://www.twitter.com/"><img src="assets/images/login_reg/tw.png"></a>
+				<a href="https://www.google.com/"><img src="assets/images/login_reg/g.png"></a>
+			</div>
+			<form id="login" class="input-group">
+				<input type="text" class="input-field" placeholder="Email Id" required>
+				<input type="password" class="input-field" placeholder="Enter Password" required>
+				<input type="checkbox" class="check-box">
+				<span>Remember Password</span>
+				<a class="submit-btn" href="profile.html">Log In</a>
+			</form>
+			<form id="register" class="input-group">
+				<input type="email" class="input-field" placeholder="Email Id" required>
+				<input type="password" class="input-field" placeholder="Enter Password" required>
+				<input type="checkbox" class="check-box">
+				<span>I agree to the terms & conditions</span>
+				<a class="submit-btn" href="">Register</a>
+			</form>
+		</div>
+	</main>
+	<!-- </div> -->
+
+	<!-- footer -->
+
+	<footer>
+		<div>
+			<h3>Content</h3>
+			<ul>
+				<li>New resources</li>
+				<li>The Most Popular Content</li>
+				<li>Search Trends</li>
+				<li>Blog</li>
+			</ul>
+		</div>
+		<div>
+			<h3>Information</h3>
+			<ul>
+				<li>Plans & Pricing</li>
+				<li>About Us</li>
+				<li>Jobs</li>
+				<li>Sell Your Content</li>
+			</ul>
+		</div>
+		<div>
+			<h3>Legal</h3>
+			<ul>
+				<li>Terms $ Conditions</li>
+				<li>License Agreement </li>
+				<li>Privacy Policy</li>
+				<li>Copyright Information</li>
+				<li>Cookies Policy</li>
+				<li>Cookie Setting</li>
+			</ul>
+		</div>
+		<div>
+			<h3>Social Media</h3>
+			<a href=""><img src="assets/images/index/6.png"></a>
+			<a href=""><img src="assets/images/index/8.png"></a>
+			<a href=""><img src="assets/images/index/10.png"></a>
+			<a href=""><img src="assets/images/index/11.png"></a>
+			<a href=""><img src="assets/images/index/12.png"></a>
+		</div>
+	</footer>
+
+	<!-- footer -->
+
+	<script>
+		var x = document.getElementById("login");
+		var y = document.getElementById("register");
+		var z = document.getElementById("btn");
+
+		function register() {
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";
+		}
+
+		function login() {
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "0px";
+		}
+	</script>
+
+</body>
+
+</html>

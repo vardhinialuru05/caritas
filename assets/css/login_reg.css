@@ -1,0 +1,199 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Baloo Bhai 2', cursive;
+	background-color: #FFF;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+hr {
+	border: 2px solid rgb(243, 242, 242) ;
+	border-bottom: none;
+}
+
+main {
+	background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), url(../images/login_reg/donate.jpg);
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img.logo {
+	height: 50px;
+}
+
+nav.main-navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	margin: 0 20px;
+}
+
+nav.main-navigation ul li{
+	display: inline-block;
+	padding: 5px;
+	border-radius: 13px;
+	margin: 10px 20px;
+	cursor: pointer;
+	font-size: 1.2rem;
+	color: #0C4271;
+	font-weight: 500;
+}
+
+nav.main-navigation ul li:hover{
+	background-color: rgb(233, 231, 231);
+}
+
+.form-box {
+	width: 380px;
+	height: 420px;
+	position: relative;
+	top: 90px;
+	margin: auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	box-shadow: 0 0 10px rgb(110, 109, 109);
+}
+
+.button-box {
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+
+#btn {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: rgba(255, 43, 74, 1);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.social-icons {
+	margin: 30px auto;
+	text-align: center;
+}
+
+.social-icons img {
+	width: 35px;
+	margin: 0 12px;
+}
+
+.input-group {
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+
+.input-field {
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn {
+	background-color: rgba(255, 43, 74);
+	cursor: pointer;
+	text-align: center;
+	width: 85%;
+	padding: 5px 30px;
+	display: block;
+	margin: auto;
+	border-radius: 30px;
+}
+
+.check-box {
+	margin: 30px 10px 30px 0;
+}
+
+span {
+	color: #777;
+	font-size: 12px;
+	bottom: 62px;
+	position: absolute;
+}
+
+#login {
+	left: 50px;
+}
+
+#register{
+	left: 450px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px 0px ;
+	background-color: rgb(243, 242, 242) ;
+}
+
+footer div {
+	height: 230px;
+}
+
+footer div h3 {
+	text-transform: uppercase;
+	color: #0C4271;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+footer div h3:hover {
+	text-decoration: underline;
+}
+
+footer div ul {
+	list-style: none;
+}
+
+footer div ul li{
+	padding: 4px 0px;
+	font-size: 16px;
+	font-weight: 600;
+	color: rgb(138, 133, 133);
+}
+
+footer div ul li:hover{
+	color: #00b5c3;
+	color: rgba(255, 43, 74,0.8);
+	cursor: pointer;
+}
+
+footer div img {
+	height: 35px;
+	margin-right: 7px;
+	margin-top: 10px;
+}
